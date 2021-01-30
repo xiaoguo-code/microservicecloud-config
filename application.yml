@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+      -dev
+---
+spring:
+  profiles: dev
+    active:
+      name: microservercloud-config-guoyr-test
+---
+spring:
+  profiles: test
+    active:
+      name: microservercloud-config-guoyr-test
+#请保存为UTF-8格式
