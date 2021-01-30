@@ -5,11 +5,11 @@ spring:
 ---
 spring:
   profiles: dev
-    active:
-      name: microservercloud-config-guoyr-test
+  application: 
+    name: microservercloud-config-guoyr-test
 ---
 spring:
   profiles: test
-    active:
-      name: microservercloud-config-guoyr-test
+  application: 
+    name: microservercloud-config-guoyr-test
 #请保存为UTF-8格式
