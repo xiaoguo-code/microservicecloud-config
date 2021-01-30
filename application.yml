@@ -6,7 +6,7 @@ spring:
 spring:
   profiles: dev
   application: 
-    name: microservercloud-config-guoyr-test
+    name: microservercloud-config-guoyr-dev
 ---
 spring:
   profiles: test
